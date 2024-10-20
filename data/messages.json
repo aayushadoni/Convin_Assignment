@@ -1,0 +1,39 @@
+{
+    "defaultErr": {
+      "badRequest": "The request could not be understood or was missing required parameters.",
+      "internalServerError": "An internal server error occurred. Please try again later.",
+      "unauthorized": "You are not authorized to perform this action.",
+      "forbidden": "You do not have permission to access this resource.",
+      "notFound": "The requested resource could not be found.",
+      "conflict": "A conflict occurred with the current state of the resource."
+    },
+    "userErr": {
+      "invalidCredentials": "Invalid email or password.",
+      "emailExists": "This email is already registered. Please use a different email.",
+      "notFound": "User not found.",
+      "profileUpdateFail": "Unable to update the user profile at this time.",
+      "accountDeactivated": "This account has been deactivated. Please contact support.",
+      "unauthorizedAccess": "Unauthorized access to user resources."
+    },
+    "authErr": {
+      "tokenMissing": "Authorization token is missing.",
+      "invalidToken": "Authorization token is invalid or expired.",
+      "sessionExpired": "Your session has expired. Please log in again."
+    },
+    "validationErr": {
+      "missingFields": "Required fields are missing or invalid.",
+      "invalidEmail": "The email format is invalid.",
+      "weakPassword": "The password must contain at least 8 characters, including an uppercase letter, a number, and a special character.",
+      "invalidPhoneNumber": "The mobile number format is invalid.",
+      "genderNotRecognized": "The specified gender is not recognized."
+    },
+    "successMessages": {
+      "userCreated": "User created successfully!",
+      "userLoggedIn": "User logged in successfully.",
+      "userProfileFetched": "User profile fetched successfully.",
+      "userUpdated": "User details updated successfully.",
+      "userDeleted": "User deleted successfully.",
+      "loggedOut": "Logged out successfully."
+    }
+  }
+  
